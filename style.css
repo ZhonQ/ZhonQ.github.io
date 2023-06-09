@@ -1,12 +1,15 @@
-body {
-    background-color: #b4b4b4;
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top: 25px;
 }
 
-/* .container-fluid {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-} */
+body {
+    background-color: #faff73;
+    /* #82ffa9 */
+    /* #faff73 */
+}
 
 .header {
     display: flex;
@@ -36,10 +39,42 @@ body {
 
 .box1 {
     top: 25px;
-    position: absolute;
+    position: fixed;
     height: 25px;
     letter-spacing: 30px;
     font-size: 10px;
+    padding-left: 2%;
+}
+
+.box100{
+    color: azure;
+    background-color: #3DFD79;
+    bottom: 2%;
+    position: fixed;
+    height: 25px;
+    letter-spacing: 5px;
+    font-size: 27px;
+    padding-left: 2.5%;
+    padding-right: 2%;
+    letter-spacing: 0;
+}
+
+.box101{
+    bottom: -0.5%;
+    text-align: right;
+    position: fixed;
+    right: 2%;
+    height: 25px;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+
+.box99{
+    background-color: #3DFD79;
+    color: #3DFD79;
+    height: 25px;
+    bottom: 0%;
+    position: fixed;
 }
 
 .box2 {
@@ -70,6 +105,7 @@ body {
 
 .ask1 {
     top: 30.5vh;
+    font-weight: bold;
     position: absolute;
     left: 35.5%;
     z-index: 2;
@@ -78,6 +114,7 @@ body {
 
 .ask2 {
     top: 30.5vh;
+    font-weight: bold;
     position: absolute;
     left: 55%;
     z-index: 2;
@@ -87,14 +124,14 @@ body {
 
 
 /*精靈1 */
-.col1 {
-    position: relative;
+.evil {
+    position: absolute;
     justify-content: center;
-    display: flex;
+    /* display: flex; */
     /* height: 35vh; */
     width: 65%;
     left: 17.5%;
-    top: 28vh;
+    top: 25%;
     animation: float 6s infinite;
 }
 
@@ -130,38 +167,138 @@ body {
 
 .background {
     position: absolute;
-    top: -5px;
+    width: 100%;
+    top: 1%;
     left: 0%;
-    z-index: -1;
+    z-index: -2;
 }
 
 .lefteye {
     position: absolute;
-    top: 130px;
+    top: 16%;
     left: 6.5%;
     width: 25%;
-    z-index: -2;
+    z-index: -1;
 }
 
 .righteye {
     position: absolute;
-    top: 130px;
+    top: 16%;
     left: 68.5%;
     width: 25%;
-    z-index: -2;
+    z-index: -1;
 }
 
-/* .container-fluid-2{
-    width: 100%;
-    height: 100%;
+.row5{
+    background-color: #f23e3e;
     position: relative;
-} */
-
-.page2 {
-    height: 100vh;
+    height: 50vh;
+    bottom: -170vh;
+    padding-top: 10vh;
+    padding-left: 0%;
     margin: 0;
 }
 
+.box7{
+    position: absolute;
+    width:8%;
+    left: 5vw;
+    justify-content: left;
+    border: black;
+}
+
+.box8{
+    position: absolute;
+    font-size: 15px;
+    line-height: 2;
+    left: 15vw;
+    color: #f23e3e;
+    background-color: aliceblue;
+    padding: 11px;
+    width: 80%;
+    height: 25%;
+}
+
+.box9{
+    position: absolute;
+    width: 100%;
+    top: 50vh;
+
+}
+
+.newbook-bk{
+    position: absolute;
+    top: 213%;
+}
+
+.newbook{
+    position: absolute;
+    top: 200%;
+    width: 25%;
+    left: 5vw;
+}
+
+.box10{
+    position: absolute;
+    top: 250%;
+    left: 5vw;
+    width: 25%;
+}
+
+.box11{
+    position: absolute;
+    top: 330%;
+    left: 5vw;
+    width: 25%;
+}
+
+.box12{
+    position: absolute;
+    top: 440%;
+    left: 5vw;
+    width: 25%;
+}
+
+.box13{
+    position: absolute;
+    top: 125vh;
+    left: 35vw;
+    font-size: 15px;
+    background-color: #3DFD79;
+    padding: 10px;
+    width: 50%;
+    height: 10%;
+    font-weight: bold;
+
+}
+
+.box14{
+    position: absolute;
+    top: 121.5vh;
+    left: 35vw;
+    font-size: 10px;
+    color: white;
+    background-color: #f23e3e;
+    padding: 5px;
+    padding-right: 0px;
+    width: 6%;
+    height: 7%;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.box15{
+    position: absolute;
+    top: 130vh;
+    left: 35vw;
+    font-size: 10px;
+    background-color: #faff73;
+    padding: 20px;
+    padding-left: 10px;
+    width: 55%;
+    height: 47%;
+}
 @media only screen and (max-width: 768px) {
 
 
